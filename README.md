@@ -1,4 +1,14 @@
 # Meeting-summary-generation
+主要包括以下关键节点：
+
+数据准备
+模型训练
+模型格式转化
+服务端部署与启动
+API服务编写与部署
+客户端(网页端的编写与部署）
+
+
 BERT模型： 首先需要获取预训练的BERT模型的权重参数和配置文件。您可以从Hugging Face的模型库（https://huggingface.co/models）或TensorFlow官方的模型库中获取预训练的BERT模型。
 
 编码器（Encoder）： 使用BERT模型作为编码器来将学术文章编码为语义表示。您可以使用相应的BERT模型加载器加载预训练的BERT模型，并通过它来编码输入的文章。
